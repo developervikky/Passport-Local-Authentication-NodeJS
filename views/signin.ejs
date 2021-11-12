@@ -1,0 +1,17 @@
+<%- include('./header'); -%>
+<h3>Sign Up Form</h3>
+<form action="/signin" method="post">
+    <div>
+        <label>Username:</label>
+        <input type="text" name="username"/>
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" name="password"/>
+    </div>
+    <div>
+        <input type="submit" value="Log In"/>
+        <span>Create new account ?</span><a href="/signup">Signin</a>
+    </div>
+</form>
+<%- include('./footer'); -%>
